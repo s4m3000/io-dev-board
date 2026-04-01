@@ -17629,6 +17629,32 @@
 		(layer "Edge.Cuts")
 		(uuid "d94ddd80-1f40-4dcb-bcf9-4569cfa8353a")
 	)
+	(gr_text "3.3V!"
+		(at 163 90.5 0)
+		(layer "F.Cu" knockout)
+		(uuid "07ff2bef-3591-402d-8a0d-418d8520992d")
+		(effects
+			(font
+				(size 1.8 1.8)
+				(thickness 0.45)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "3.3V!"
+		(at 163 90.5 0)
+		(layer "F.Mask" knockout)
+		(uuid "49180c5d-64bd-47bc-8aa0-d05dfc27213f")
+		(effects
+			(font
+				(size 1.8 1.8)
+				(thickness 0.45)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "On"
 		(at 169.916985 112.972487 90)
 		(layer "F.SilkS")
@@ -21760,7 +21786,7 @@
 		(net "Net-(D4-K)")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30029)
+		(priority 30030)
 		(attr
 			(teardrop
 				(type padvia)
@@ -22017,7 +22043,7 @@
 		(net "Net-(Q1-C)")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30021)
+		(priority 30023)
 		(attr
 			(teardrop
 				(type padvia)
@@ -22117,7 +22143,7 @@
 		(net "Net-(D5-K)")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30030)
+		(priority 30026)
 		(attr
 			(teardrop
 				(type padvia)
@@ -22150,7 +22176,7 @@
 		(net "Net-(Q3-C)")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30022)
+		(priority 30021)
 		(attr
 			(teardrop
 				(type padvia)
@@ -24178,7 +24204,7 @@
 		(net "/WP")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30033)
+		(priority 30034)
 		(attr
 			(teardrop
 				(type padvia)
@@ -24757,7 +24783,7 @@
 		(net "Net-(Q2-C)")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30023)
+		(priority 30022)
 		(attr
 			(teardrop
 				(type padvia)
@@ -25965,7 +25991,7 @@
 		(net "Net-(D2-K)")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30028)
+		(priority 30027)
 		(attr
 			(teardrop
 				(type padvia)
@@ -26660,7 +26686,7 @@
 		(net "Net-(D3-K)")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30026)
+		(priority 30028)
 		(attr
 			(teardrop
 				(type padvia)
@@ -27038,7 +27064,7 @@
 		(net "Net-(D1-K)")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30027)
+		(priority 30029)
 		(attr
 			(teardrop
 				(type padvia)
@@ -27249,7 +27275,7 @@
 		(net "/DIP_2")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30034)
+		(priority 30033)
 		(attr
 			(teardrop
 				(type padvia)
