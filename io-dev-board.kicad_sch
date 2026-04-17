@@ -4492,6 +4492,26 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "R_LED = (U - U_CE(sat) - U_LED) / I_C\nU_CE =	0.150V (I_C = 10mA)\n		0.175V (I_C = 20mA)\n		0.200V (I_C = 30mA)\n		0.225V (I_C = 40mA)\n		0.250V (I_C = 50mA)"
+		(exclude_from_sim no)
+		(at 77.216 -7.62 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0cb832fa-cfc4-488d-92f8-bd2c30ca1874")
+	)
+	(text "R_B = h_FE(min) * (U_s - U_BE(sat))\nh_FE(min) =	60 (I_C = 10mA)\n			50 (I_C = 20mA)\n			40 (I_C = 30mA)\n			30 (I_C = 40mA)\n			20 (I_C = 50mA)\nU_BE(sat) =	1.00V (I_C = 10mA)\n			1.05V (I_C = 20mA)\n			1.10V (I_C = 30mA)\n			1.15V (I_C = 40mA)\n			1.20V (I_C = 50mA)"
+		(exclude_from_sim no)
+		(at 35.56 -2.032 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2b605144-b577-4530-a3e7-faa8c6ee4acf")
+	)
 	(junction
 		(at 152.4 134.62)
 		(diameter 0)
